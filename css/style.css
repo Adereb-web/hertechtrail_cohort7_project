@@ -1,16 +1,16 @@
 /********** Template CSS **********/
 :root {
-    --primary: #4294e3;
-    --secondary: rgb(66, 6, 6);
-    --light: #f0f6ff;
-    --dark: #262b47;
+    --primary: #42e34f;
+    --secondary: rgb(6, 49, 66);
+    --light: #f5fff0;
+    --dark: #473326;
 }
 
 /*** Spinner ***/
 #spinner {
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.5s ease-out, visibility 0s linear 0.5s;
+    transition: opacity 0.3s ease-out, visibility 0s linear 0.3s;
     z-index: 99999;
 }
 
@@ -78,7 +78,7 @@ h6,
 
 /*** Button ***/
 .btn {
-    transition: 0.5s;
+    transition: 0.3s;
 }
 
 .btn.btn-primary-gradient,
@@ -174,7 +174,7 @@ h6,
     font-family: 'Jost', sans-serif;
     font-size: 18px;
     font-weight: 500;
-    color: var(--light) !important;
+    color: var(--dark) !important;
     outline: none;
     transition: 0.5s;
 }
@@ -322,7 +322,7 @@ h6,
     padding: 12px 30px;
     font-weight: 500;
     color: var(--dark);
-    background: #ffffff;
+    background: #ffffffda;
 }
 
 .pricing .nav-item:first-child .nav-link {
@@ -517,11 +517,11 @@ h6,
 .footer .copyright {
     padding: 25px 0;
     font-size: 14px;
-    border-top: 1px solid rgba(256, 256, 256, 0.1);
+    border-top: 1px solid rgba(25, 25, 26, 0.1);
 }
 
 .footer .copyright a {
-    color: var(--light);
+    color: var(--dark);
 }
 
 .footer .footer-menu a {
