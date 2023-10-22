@@ -84,7 +84,6 @@ h6,
 .btn.btn-primary-gradient,
 .btn.btn-secondary-gradient {
     position: relative;
-    overflow: hidden;
     border: none;
     color: #ffffff;
     z-index: 1;
